@@ -96,3 +96,79 @@ body{
     margin-top: -80px;
 }
 
+
+/* Responsif pada layar kecil (ponsel) */
+@media (max-width: 768px) {
+    .welcome-section {
+      margin-top: 160px;
+      float: right;
+    }
+  
+    .greeting {
+      font-size: 19px;
+      margin-bottom: 20px;
+    }
+      .profile {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+        position: relative;
+        margin-bottom: 10px;
+        float: left;
+    }
+  }
+  .Biodata{
+    margin-top: 20px;
+  }
+  .achievement {
+    margin-top: 130px;
+    margin-bottom: 10px;
+  }
+  .ahli {
+    margin-top:10px;
+  }
+  
+  /* Responsif pada layar sedang (tablet) */
+  @media (min-width: 767px) and (max-width: 992px) {
+    .welcome-section {
+        margin-top: 160px;
+      }
+    
+      .greeting {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+        .profile {
+          display: flex;
+          justify-content:center;
+          align-items: center;
+          flex-direction: column;
+          margin-top: 50px;
+          position: relative;
+          margin-bottom: 10px;
+      }
+
+    .Biodata{
+      margin-top: 20px;
+    }
+    .achievement {
+      margin-top: 130px;
+      margin-bottom: 10px;
+    }
+    .col-sm-4 {
+        width: 100%; /* Menempati 100% lebar pada layar kecil */
+        margin-left: 0; /* Tidak ada margin kiri pada layar kecil */
+        margin-bottom: 20px; /* Margin bawah diberikan agar ada ruang antar elemen */
+    }
+    .col-sm-3{
+        width: 100%; /* Menempati 100% lebar pada layar kecil */
+        margin-left: 0; /* Tidak ada margin kiri pada layar kecil */
+        margin-bottom: 20px; /* Margin bawah diberikan agar ada ruang antar elemen */
+    }
+    .pglm {
+        margin-top: -10x;
+    }
+  }
+  
